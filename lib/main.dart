@@ -17,7 +17,13 @@ class _MainAppState extends State<MainApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Container(),
+      body: Column(
+        children: <Widget>[
+          Container(
+            height: 400,
+          )
+        ],
+      ),
     );
   }
 }
